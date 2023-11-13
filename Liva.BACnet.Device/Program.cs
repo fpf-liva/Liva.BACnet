@@ -1001,12 +1001,12 @@ internal abstract class Program
         }
     }
 
-    private static void OnWhoIs(BacnetClient sender, BacnetAddress adr, int low_limit, int high_limit)
+    private static void OnWhoIs(BacnetClient sender, BacnetAddress adr, int lowLimit, int highLimit)
     {
         lock (LockObject)
         {
-            if (low_limit != -1 && _storage.DeviceId < low_limit) return;
-            if (high_limit != -1 && _storage.DeviceId > high_limit) return;
+            if (lowLimit != -1 && _storage.DeviceId < lowLimit) return;
+            if (highLimit != -1 && _storage.DeviceId > highLimit) return;
             sender.Iam(_storage.DeviceId, SupportedSegmentation);
         }
     }
