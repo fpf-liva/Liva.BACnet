@@ -91,12 +91,12 @@ namespace System.IO.BACnet.Storage
             return null;
         }
 
-        public Object FindObject(BacnetObjectId object_id)
+        public Object? FindObject(BacnetObjectId objectId)
         {
-            //liniear search
-            foreach (Object obj in Objects)
+            //linear search
+            foreach (var obj in Objects)
             {
-                if (obj.Type == object_id.type && obj.Instance == object_id.instance)
+                if (obj.Type == objectId.type && obj.Instance == objectId.instance)
                 {
                     return obj;
                 }
