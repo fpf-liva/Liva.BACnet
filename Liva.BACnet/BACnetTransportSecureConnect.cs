@@ -135,9 +135,9 @@ public class BACnetTransportSecureConnect : IBacnetTransport, IDisposable
         Uri uri = new Uri(configuration.primaryHubURI); // WebSocket ctor fail if the string contains spaces, so use this to clean the path
 
         if (!configuration.DirectConnect)
-            Websocket = new WebSocket(uri.ToString(), new string[] { "hub.bsc.bacnet.org" });
+            Websocket = new WebSocket(uri.ToString(), "hub.bsc.bacnet.org");
         else
-            Websocket = new WebSocket(uri.ToString(), new string[] { "dc.bsc.bacnet.org" });
+            Websocket = new WebSocket(uri.ToString(), "dc.bsc.bacnet.org");
 
         if (configuration.UseTLS)
         {
