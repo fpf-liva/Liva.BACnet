@@ -1,0 +1,12 @@
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.csproj.AssemblyReference.cache
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.AssemblyInfoInputs.cache
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.AssemblyInfo.cs
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.csproj.CoreCompileInputs.cache
+C:\Repos\Liva.BACnet\Liva.BACnet\bin\Debug\net6.0\Liva.BACnet.deps.json
+C:\Repos\Liva.BACnet\Liva.BACnet\bin\Debug\net6.0\Liva.BACnet.dll
+C:\Repos\Liva.BACnet\Liva.BACnet\bin\Debug\net6.0\Liva.BACnet.pdb
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.dll
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\refint\Liva.BACnet.dll
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\Liva.BACnet.pdb
+C:\Repos\Liva.BACnet\Liva.BACnet\obj\Debug\net6.0\ref\Liva.BACnet.dll

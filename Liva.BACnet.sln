@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liva.BACnet", "Liva.BACnet/Liva.BACnet.csproj", "{28825949-11CD-4EEF-9596-D20D23A942DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liva.BACnet.Device", "Liva.BACnet.Device\Liva.BACnet.Device.csproj", "{F883FD06-1AB9-49EB-A942-DB70CC09F487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28825949-11CD-4EEF-9596-D20D23A942DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28825949-11CD-4EEF-9596-D20D23A942DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28825949-11CD-4EEF-9596-D20D23A942DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28825949-11CD-4EEF-9596-D20D23A942DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F883FD06-1AB9-49EB-A942-DB70CC09F487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F883FD06-1AB9-49EB-A942-DB70CC09F487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F883FD06-1AB9-49EB-A942-DB70CC09F487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F883FD06-1AB9-49EB-A942-DB70CC09F487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
